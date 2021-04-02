@@ -2,7 +2,7 @@
  * ABB code
  * master : BKCho
  * First develop : HSKim
- * Second develop : Yunho Han
+ * Second develop : YoonSungJoon
  * Update date : 2020.04.09
  */
 
