@@ -30,3 +30,8 @@ Step 8. 시뮬레이션 실행을 위해 터미널 창에 roslaunch abb_irb120 a
 
 
 ## 1. 실습 1
+
+* void Practice() 함수 만들기
+```c
+void practice()
+```
