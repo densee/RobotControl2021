@@ -1,6 +1,6 @@
 # [2021-1] Robot Control 실습
 
-Simulation for RobotArm
+/h2 설치절차
 
 Step 1. Clone or download를 클릭하여 url을 복사한다.
 
