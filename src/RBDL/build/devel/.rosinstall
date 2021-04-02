@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hyunseok/catkin_ws/src/RcLab-RobotArm/src/RBDL/build/devel/setup.sh

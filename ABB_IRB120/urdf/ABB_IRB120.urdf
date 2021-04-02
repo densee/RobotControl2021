@@ -1,0 +1,361 @@
+<robot
+  name="ABB_IRB120">
+  <link
+    name="BASE">
+    <inertial>
+      <origin
+        xyz="-0.042 0 0.08"
+        rpy="0 0 0" />
+      <mass
+        value="6.215" />
+      <inertia
+        ixx="0.025"
+        ixy="0"
+        ixz="0.001"
+        iyy="0.049"
+        iyz="0"
+        izz="0.047" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/BASE.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/BASE.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="LINK1">
+    <inertial>
+      <origin
+        xyz="0 0 0.07"
+        rpy="0 0 0" />
+      <mass
+        value="3.067" />
+      <inertia
+        ixx="0.014"
+        ixy="0"
+        ixz="0"
+        iyy="0.014"
+        iyz="0"
+        izz="0.01" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LINK1_JOINT"
+    type="continuous">
+    <origin
+      xyz="0 0 0.168"
+      rpy="0 0 0" />
+    <parent
+      link="BASE" />
+    <child
+      link="LINK1" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="LINK2">
+    <inertial>
+      <origin
+        xyz="-0.001 0.002 0.101"
+        rpy="0 0 0" />
+      <mass
+        value="3.909" />
+      <inertia
+        ixx="0.06"
+        ixy="0"
+        ixz="0"
+        iyy="0.042"
+        iyz="0.001"
+        izz="0.026" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LINK2_JOINT"
+    type="continuous">
+    <origin
+      xyz="0 0 0.122"
+      rpy="0 0 0" />
+    <parent
+      link="LINK1" />
+    <child
+      link="LINK2" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="LINK3">
+    <inertial>
+      <origin
+        xyz="0.023 -0.001 0.058"
+        rpy="0 0 0" />
+      <mass
+        value="2.92" />
+      <inertia
+        ixx="0.008"
+        ixy="0"
+        ixz="0.001"
+        iyy="0.017"
+        iyz="0"
+        izz="0.013" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LINK3_JOINT"
+    type="continuous">
+    <origin
+      xyz="0 0 0.27"
+      rpy="0 0 0" />
+    <parent
+      link="LINK2" />
+    <child
+      link="LINK3" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="LINK4">
+    <inertial>
+      <origin
+        xyz="0.076 -0.005 0"
+        rpy="0 0 0" />
+      <mass
+        value="1.448" />
+      <inertia
+        ixx="0.003"
+        ixy="0"
+        ixz="0"
+        iyy="0.004"
+        iyz="0"
+        izz="0.006" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LINK4_JOINT"
+    type="continuous">
+    <origin
+      xyz="0.15 0 0.07"
+      rpy="0 0 0" />
+    <parent
+      link="LINK3" />
+    <child
+      link="LINK4" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="LINK5">
+    <inertial>
+      <origin
+        xyz="-0.001 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.547" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0.001"
+        iyz="0"
+        izz="0.001" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LINK5_JOINT"
+    type="continuous">
+    <origin
+      xyz="0.152 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="LINK4" />
+    <child
+      link="LINK5" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="LINK6">
+    <inertial>
+      <origin
+        xyz="-0.007 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.014" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ABB_IRB120/meshes/LINK6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LINK6_JOINT"
+    type="continuous">
+    <origin
+      xyz="0.072 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="LINK5" />
+    <child
+      link="LINK6" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+</robot>
