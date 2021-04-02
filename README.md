@@ -18,7 +18,7 @@ Step 4. Parent Directory를 사용자의 home/user_name/catkin_ws/src 경로로 
 Step 5. 사용자의 catkin_ws/src 위치에 Step4에서 설정한 Clone Name 을 갖는 폴더가 있는지 확인하고, 폴더 내부에 패키지 구성 파일들(world 폴더,
         src 폴더, launch 폴더 등)과 model 파일(=ABB_IRB120)이 있는지 확인한다.
 
-Step 6. 'ABB_IRB120(2020.04.09 ver)' 폴더를 HOME > .gazebo > models 폴더로 가져와서 시뮬레이션을 위한 파일 셋팅을 마무리한다. 
+Step 6. 'ABB_IRB120' 폴더를 HOME > .gazebo > models 폴더로 가져와서 시뮬레이션을 위한 파일 셋팅을 마무리한다. 
          (.gazebo 폴더가 보이지 않으면, Ctrl+H 를 눌러서 폴더 숨김 해제를 할 것)
          
 Step 7. 패키지를 컴파일하기 위해 Netbeans에서 터미널 창을 열고. catkin_make(또는 cm)을 입력하여 컴파일을 진행한다. 
