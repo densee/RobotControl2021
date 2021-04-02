@@ -1,6 +1,6 @@
 # [2021-1] Robot Control 실습
 
-* 설치절차
+## 설치절차
 
 Step 1. Clone or download를 클릭하여 url을 복사한다.
 
@@ -27,3 +27,6 @@ Step 7. 패키지를 컴파일하기 위해 Netbeans에서 터미널 창을 열�
 Step 8. 시뮬레이션 실행을 위해 터미널 창에 roslaunch abb_irb120 abb_irb120.launch 를 입력한다.
 
 이로써, 시뮬레이션이 진행된다.
+
+
+## 1. 실습 1
