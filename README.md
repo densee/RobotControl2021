@@ -39,7 +39,7 @@ void Practice()
 * Homogeneous Transformation Matrix for 3-link planar arm
 ```c
 MatrixXd getTransformI0()
-MatrixXd getTransformI0()
+MatrixXd jointToTransform01(VectorXd q)
 MatrixXd getTransformI0()
 MatrixXd getTransformI0()
 MatrixXd getTransformI0()
