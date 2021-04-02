@@ -37,7 +37,7 @@ void Practice()
 ```
 * Practice() 함수안에 matrix 생성 및 터미널창에 인쇄하기
 * Homogeneous Transformation Matrix for 3-link planar arm
-```c
+~~~c
 MatrixXd getTransformI0()
 MatrixXd jointToTransform01(VectorXd q)
 MatrixXd getTransformI0()
@@ -46,4 +46,4 @@ MatrixXd getTransformI0()
 MatrixXd getTransformI0()
 MatrixXd getTransformI0()
 MatrixXd getTransformI0()
-```
+~~~
