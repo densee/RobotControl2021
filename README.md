@@ -4,7 +4,7 @@ Simulation for RobotArm
 
 Step 1. Clone or download를 클릭하여 url을 복사한다.
 
-Step 2. NetBeans의 Team > Remote > clone 을 누른후, Repository URL을 https://github.com/swan0421/RcLab-RobotArm.git 으로 설정한다.
+Step 2. NetBeans의 Team > Remote > clone 을 누른후, Repository URL을 https://github.com/swan0421/RobotControl2021.git 으로 설정한다.
         (만약, NetBeans에서 Team > Remote > clone 경로가 보이지 않는 경우, NetBeans 화면 좌측에 있는 Projects 패널에서 catkin_ws 를 클릭하면
          보이며, 위의 경로는 git에 연동되었을 때 활성화되는 경로이므로 처음 연동하는 것이라면, Team > git > clone으로 해도 됨)
         User에는 GitHUB의 user_name을 쓰고, Password에는 GitHUB의 비밀번호를 입력한 후 NEXT를 누른다.
