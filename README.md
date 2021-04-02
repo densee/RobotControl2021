@@ -36,7 +36,7 @@ Step 8. 시뮬레이션 실행을 위해 터미널 창에 roslaunch abb_irb120 a
 void Practice()
 ```
 * Practice() 함수안에 matrix 생성 및 터미널창에 인쇄하기
-* Homogeneous Transformation Matrix for 3-link planar arm
+* 3-link planar arm를 위한 Homogeneous Transformation Matrix 만들기
 ~~~c
 MatrixXd getTransformI0()
 MatrixXd jointToTransform01(VectorXd q)
