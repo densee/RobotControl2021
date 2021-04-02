@@ -1,4 +1,4 @@
-# RcLab-RobotArm by develop KHS
+# [2021-1] Robot Control 실습
 
 Simulation for RobotArm
 
